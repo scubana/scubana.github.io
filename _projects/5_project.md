@@ -1,80 +1,124 @@
 ---
+# assets/js/modal.js
 layout: page
-title: project 5
-description: a project with a background image
+title: concept art
+description: A compilation of some of my artwork. Clicking on them prompts a pop-up in higher-res. More organized folders coming soon!
 img: assets/img/1.jpg
-importance: 3
-category: fun
+importance: 1
+category: artwork
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    These are a compilation of character pages I've made. Some are fanart, but most are original character designs!
 </div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+
+<div class="row" id="gallery" data-toggle="modal" data-target="galleryModal">
+    <div class="col-md-3 col-sm-4 col-6 py-2">
+        <a href="#gallery-modal" data-large-src="/assets/img/character-art/girlband1.png" data-toggle="modal" class="image-data">
+            <img src="/assets/img/thumbnails/girlband1.png" class="w-100 shadow-1-strong rounded mb-4">
+        </a>
+    </div>
+    <div class="col-md-3 col-sm-4 col-6 py-2">
+        <a href="#gallery-modal" data-large-src="/assets/img/character-art/girlband2.png" data-toggle="modal" class="image-data">
+            <img src="/assets/img/thumbnails/girlband2.png" class="w-100 shadow-1-strong rounded mb-4">
+        </a>
+    </div>
+    <div class="col-md-3 col-sm-4 col-6 py-2">
+        <a href="#gallery-modal" data-large-src="/assets/img/character-art/girlband3.png" data-toggle="modal" class="image-data">
+            <img src="/assets/img/thumbnails/girlband3.png" class="w-100 shadow-1-strong rounded mb-4">
+        </a>
+    </div>
+    <div class="col-md-3 col-sm-4 col-6 py-2">
+        <a href="#gallery-modal" data-large-src="/assets/img/character-art/band_chick.png" data-toggle="modal" class="image-data">
+            <img src="/assets/img/thumbnails/band_chick.png" class="w-100 shadow-1-strong rounded mb-4">
+        </a>
+    </div>
+    <div class="col-md-3 col-sm-4 col-6 py-2">
+        <a href="#gallery-modal" data-large-src="/assets/img/character-art/ken_page.png" data-toggle="modal" class="image-data">
+            <img src="/assets/img/thumbnails/ken_page.png" class="w-100 shadow-1-strong rounded mb-4">
+        </a>
+    </div>
+    <div class="col-md-3 col-sm-4 col-6 py-2">
+        <a href="#gallery-modal" data-large-src="/assets/img/character-art/bee_page.png" data-toggle="modal" class="image-data">
+            <img src="/assets/img/thumbnails/bee_page.png" class="w-100 shadow-1-strong rounded mb-4">
+        </a>
+    </div>
+    <div class="col-md-3 col-sm-4 col-6 py-2">
+        <a href="#gallery-modal" data-large-src="/assets/img/character-art/moms.png" data-toggle="modal" class="image-data">
+            <img src="/assets/img/thumbnails/moms.png" class="w-100 shadow-1-strong rounded mb-4">
+        </a>
+    </div>
+    <div class="col-md-3 col-sm-4 col-6 py-2">
+        <a href="#gallery-modal" data-large-src="/assets/img/character-art/pirate_page.png" data-toggle="modal" class="image-data">
+            <img src="/assets/img/thumbnails/pirate_page.png" class="w-100 shadow-1-strong rounded mb-4">
+        </a>
+    </div>
+    <div class="col-md-3 col-sm-4 col-6 py-2">
+        <a href="#gallery-modal" data-large-src="/assets/img/character-art/samus_page.png" data-toggle="modal" class="image-data">
+            <img src="/assets/img/thumbnails/samus_page.png" class="w-100 shadow-1-strong rounded mb-4">
+        </a>
     </div>
 </div>
+
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Compiled sketches and studies.
 </div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="row" id="gallery" data-toggle="modal" data-target="galleryModal">
+    <div class="col-md-3 col-sm-4 col-6 py-2">
+        <a href="#gallery-modal" data-large-src="/assets/img/sketches/widow.png" data-toggle="modal" class="image-data">
+            <img src="/assets/img/thumbnails/widow.png" class="w-100 shadow-1-strong rounded mb-4">
+        </a>
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-md-3 col-sm-4 col-6 py-2">
+        <a href="#gallery-modal" data-large-src="/assets/img/sketches/daisy.png" data-toggle="modal" class="image-data">
+            <img src="/assets/img/thumbnails/daisy.png" class="w-100 shadow-1-strong rounded mb-4">
+        </a>
+    </div>
+    <div class="col-md-3 col-sm-4 col-6 py-2">
+        <a href="#gallery-modal" data-large-src="/assets/img/sketches/medusa_bust.png" data-toggle="modal" class="image-data">
+            <img src="/assets/img/thumbnails/medusa_bust.png" class="w-100 shadow-1-strong rounded mb-4">
+        </a>
+    </div>
+    <div class="col-md-3 col-sm-4 col-6 py-2">
+        <a href="#gallery-modal" data-large-src="/assets/img/sketches/bg3_bust.png" data-toggle="modal" class="image-data">
+            <img src="/assets/img/thumbnails/bg3_bust.png" class="w-100 shadow-1-strong rounded mb-4">
+        </a>
+    </div>
+    <div class="col-md-3 col-sm-4 col-6 py-2">
+        <a href="#gallery-modal" data-large-src="/assets/img/sketches/peach_sketch.png" data-toggle="modal" class="image-data">
+            <img src="/assets/img/thumbnails/peach_sketch.png" class="w-100 shadow-1-strong rounded mb-4">
+        </a>
+    </div>
+    <div class="col-md-3 col-sm-4 col-6 py-2">
+        <a href="#gallery-modal" data-large-src="/assets/img/sketches/pharah_sketch.png" data-toggle="modal" class="image-data">
+            <img src="/assets/img/thumbnails/pharah_sketch.png" class="w-100 shadow-1-strong rounded mb-4">
+        </a>
     </div>
 </div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
 
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<!-- Modal -->
+<div class="modal fade" id="gallery-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="//placehold.it/1200x700/222?text=..." class="loaded-image mx-auto img-fluid" class="modal-img" alt="modal img">
+      </div>
+    </div>
   </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
 </div>
-```
 
-{% endraw %}
+<script>
+   document.addEventListener("click", function (e) {
+    if(e.target.parentElement.classList.contains("image-data")) {
+        const src = e.target.parentElement.getAttribute("data-large-src");
+        document.querySelector(".modal-img").src = src;
+        const myModal = new bootstrap.Modal(document.getElementById('gallery-modal'));
+        myModal.show();
+    }
+    else {
+        document.querySelector(".modal-img").src = "//placehold.it/1200x700/222?text=...";
+    }
+ });
+</script>
+

@@ -15,6 +15,11 @@ em,
 div,
 li,
 span,
+
+.modal-backdrop {
+  background-color: rgba(0,0,0,.0001) !important;
+}
+
 strong {
   color: var(--global-text-color);
 }
@@ -535,6 +540,7 @@ footer.sticky-bottom {
 }
 
 .post-title {
+  color: var(--global-theme-color);
   mjx-container[jax="CHTML"][display="true"] {
     display: unset;
   }
@@ -652,6 +658,10 @@ footer.sticky-bottom {
     margin-bottom: 1rem;
     text-align: right;
   }
+}
+
+.highlight {
+  color: var(--global-divider-color);
 }
 
 // Publications
