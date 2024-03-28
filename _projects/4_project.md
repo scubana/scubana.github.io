@@ -22,10 +22,10 @@ I made this game with a friend of mine for a Halloween Game Jam hosted at RIT!
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/spidersheet.tiff" title="small enemy idle" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/spidersheet.tiff" title="spider sheet" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/graveyard.png" title="big enemy animation" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/graveyard.png" title="background art" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
