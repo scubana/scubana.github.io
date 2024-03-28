@@ -1,15 +1,15 @@
 ---
 # assets/js/modal.js
 layout: page
-title: concept art
-description: A compilation of some of my artwork. Clicking on them prompts a pop-up in higher-res. More organized folders coming soon!
-img: assets/img/1.jpg
+title: 2D art
+description: A compilation of some of my artwork. More coming soon!
+img: assets/img/thumbnails/mercy.png
 importance: 1
 category: artwork
 ---
 
 <div class="caption">
-    These are a compilation of character pages I've made. Some are fanart, but most are original character designs!
+    These are a compilation of character pages I've made. Clicking on them prompts a pop-up in higher-res. Some are fanart, but most are original character designs!
 </div>
 
 <div class="row" id="gallery" data-toggle="modal" data-target="galleryModal">
@@ -70,13 +70,13 @@ category: artwork
         </a>
     </div>
     <div class="col-md-3 col-sm-4 col-6 py-2">
-        <a href="#gallery-modal" data-large-src="/assets/img/sketches/daisy.png" data-toggle="modal" class="image-data">
-            <img src="/assets/img/thumbnails/daisy.png" class="w-100 shadow-1-strong rounded mb-4">
+        <a href="#gallery-modal" data-large-src="/assets/img/sketches/daisy.PNG" data-toggle="modal" class="image-data">
+            <img src="/assets/img/thumbnails/daisy.PNG" class="w-100 shadow-1-strong rounded mb-4">
         </a>
     </div>
     <div class="col-md-3 col-sm-4 col-6 py-2">
-        <a href="#gallery-modal" data-large-src="/assets/img/sketches/medusa_bust.png" data-toggle="modal" class="image-data">
-            <img src="/assets/img/thumbnails/medusa_bust.png" class="w-100 shadow-1-strong rounded mb-4">
+        <a href="#gallery-modal" data-large-src="/assets/img/sketches/medusa_bust.PNG" data-toggle="modal" class="image-data">
+            <img src="/assets/img/thumbnails/medusa_bust.PNG" class="w-100 shadow-1-strong rounded mb-4">
         </a>
     </div>
     <div class="col-md-3 col-sm-4 col-6 py-2">
@@ -90,8 +90,8 @@ category: artwork
         </a>
     </div>
     <div class="col-md-3 col-sm-4 col-6 py-2">
-        <a href="#gallery-modal" data-large-src="/assets/img/sketches/pharah_sketch.png" data-toggle="modal" class="image-data">
-            <img src="/assets/img/thumbnails/pharah_sketch.png" class="w-100 shadow-1-strong rounded mb-4">
+        <a href="#gallery-modal" data-large-src="/assets/img/sketches/pharah_sketch.PNG" data-toggle="modal" class="image-data">
+            <img src="/assets/img/thumbnails/pharah_sketch.PNG" class="w-100 shadow-1-strong rounded mb-4">
         </a>
     </div>
 </div>
@@ -102,7 +102,7 @@ category: artwork
   <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="//placehold.it/1200x700/222?text=..." class="loaded-image mx-auto img-fluid" class="modal-img" alt="modal img">
+        <img src="//placehold.it/1200x700/222?text=..." class="loaded-image mx-auto img-fluid" class="modal-img">
       </div>
     </div>
   </div>

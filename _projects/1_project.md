@@ -2,7 +2,7 @@
 layout: page
 title: Bloodshed
 description: A wave survival hack n' slash set in Hell!
-img: assets/img/title.svg
+img: assets/img/title.png
 importance: 1
 category: programming
 ---
@@ -13,13 +13,13 @@ I am happy with the end product and the experience I gained along the way, most 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/mcSketch.svg" title="main character rough" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/mcSketch.png" title="main character rough" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/mc2ndsketch1.svg" title="main character second rough" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/mc2ndsketch.png" title="main character second rough" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/newsprite1.svg" title="final main character" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/newsprite.png" title="final main character" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -29,7 +29,7 @@ I am happy with the end product and the experience I gained along the way, most 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <a href = 'https://justinbaez.itch.io/bloodshed'>
-            {% include figure.liquid loading="eager" path="assets/img/title.svg" title="game title art" class="img-fluid rounded z-depth-1" %}
+            {% include figure.liquid loading="eager" path="assets/img/title.png" title="game title art" class="img-fluid rounded z-depth-1" %}
         </a>
     </div>
 </div>
