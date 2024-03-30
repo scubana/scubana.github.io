@@ -49,6 +49,11 @@ category: artwork
         </a>
     </div>
     <div class="col-md-3 col-sm-4 col-6 py-2">
+        <a href="#gallery-modal" data-large-src="/assets/img/character-art/goat lady.png" data-toggle="modal" class="image-data">
+            <img src="/assets/img/thumbnails/goat lady.png" class="w-100 shadow-1-strong rounded mb-4">
+        </a>
+    </div>
+    <div class="col-md-3 col-sm-4 col-6 py-2">
         <a href="#gallery-modal" data-large-src="/assets/img/character-art/pirate_page.png" data-toggle="modal" class="image-data">
             <img src="/assets/img/thumbnails/pirate_page.png" class="w-100 shadow-1-strong rounded mb-4">
         </a>
@@ -64,6 +69,11 @@ category: artwork
     Compiled sketches and studies.
 </div>
 <div class="row" id="gallery" data-toggle="modal" data-target="galleryModal">
+<div class="col-md-3 col-sm-4 col-6 py-2">
+        <a href="#gallery-modal" data-large-src="/assets/img/sketches/medusa.png" data-toggle="modal" class="image-data">
+            <img src="/assets/img/thumbnails/medusa.png" class="w-100 shadow-1-strong rounded mb-4">
+        </a>
+    </div>
     <div class="col-md-3 col-sm-4 col-6 py-2">
         <a href="#gallery-modal" data-large-src="/assets/img/sketches/widow.png" data-toggle="modal" class="image-data">
             <img src="/assets/img/thumbnails/widow.png" class="w-100 shadow-1-strong rounded mb-4">
