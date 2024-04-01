@@ -80,6 +80,16 @@ category: artwork
         </a>
     </div>
     <div class="col-md-3 col-sm-4 col-6 py-2">
+        <a href="#gallery-modal" data-large-src="/assets/img/sketches/moma.png" data-toggle="modal" class="image-data">
+            <img src="/assets/img/thumbnails/moma.png" class="w-100 shadow-1-strong rounded mb-4">
+        </a>
+    </div>
+    <div class="col-md-3 col-sm-4 col-6 py-2">
+        <a href="#gallery-modal" data-large-src="/assets/img/sketches/moma2.png" data-toggle="modal" class="image-data">
+            <img src="/assets/img/thumbnails/moma2.png" class="w-100 shadow-1-strong rounded mb-4">
+        </a>
+    </div>
+    <div class="col-md-3 col-sm-4 col-6 py-2">
         <a href="#gallery-modal" data-large-src="/assets/img/sketches/daisy.PNG" data-toggle="modal" class="image-data">
             <img src="/assets/img/thumbnails/daisy.PNG" class="w-100 shadow-1-strong rounded mb-4">
         </a>
